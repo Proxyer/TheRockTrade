@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- ========== Patch - Make Stone Chunks Tradable ========== -->
+
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationInsert">
+                <xpath>/Defs/ThingDef[@Name = "ChunkRockBase"]/thingCategories</xpath>
+                <value>
+                    <drawGUIOverlay>true</drawGUIOverlay>
+                    <category>Item</category>
+                    <thingClass>Thing</thingClass>
+                    <altitudeLayer>Item</altitudeLayer>
+                    <passability>PassThroughOnly</passability>
+                    <fillPercent>0.50</fillPercent>
+                    <statBases>
+                        <MarketValue>2</MarketValue>
+                        <SellPriceFactor>0.65</SellPriceFactor>
+                        <MaxHitPoints>300</MaxHitPoints>
+                        <Flammability>0</Flammability>
+                        <Beauty>-8</Beauty>
+                        <Cleanliness>-2</Cleanliness>
+                    </statBases>
+                    <selectable>true</selectable>
+                    <pathCost>55</pathCost>
+                    <pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+                    <drawerType>MapMeshOnly</drawerType>
+                    <randomizeRotationOnSpawn>true</randomizeRotationOnSpawn>
+                    <designateHaulable>true</designateHaulable>
+                    <saveCompressible>true</saveCompressible>
+                    <stackLimit>1</stackLimit>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationAttributeRemove">
+        <xpath>/Defs/ThingDef[@Name = "ChunkRockBase"]</xpath>
+        <attribute>ParentName</attribute>
+    </Operation>
+
+    <!-- ========== Patch - Make Slag Debris Tradable ========== -->
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationInsert">
+                <xpath>/Defs/ThingDef[@Name = "ChunkBase"]/thingCategories</xpath>
+                <value>
+                    <drawGUIOverlay>true</drawGUIOverlay>
+                    <thingCategories>
+                        <li>Chunks</li>
+                    </thingCategories>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+    
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[@Name = "ChunkBase"]/statBases</xpath>
+                <value>
+                    <MarketValue>5</MarketValue>
+                    <SellPriceFactor>0.85</SellPriceFactor>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[@Name = "ChunkBase"]/tradeability</xpath>
+            </li>
+        </operations>
+    </Operation>
+
+    <!-- ========== Patch - Make Stone Blocks Tradable ========== -->
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[@Name = "StoneBlocksBase"]/tradeability</xpath>
+            </li>
+        </operations>
+    </Operation>
+
+
+    <!-- === Code for 'The Rock Trade' by EarthyTurtle. === -->
+    <!-- === This label is actually just so I don't accidently place anything after the Patch tag. :P === -->
+</Patch>

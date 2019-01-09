@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[TWC]Cupro's Stones 1.0</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+    
+  <!--=============== Crate Colour Match ====================-->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "SandstoneChunkCrate"]/graphicData/color</xpath>
+                    <value><color>(130,102,90)</color></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "GraniteChunkCrate"]/graphicData/color</xpath>
+                    <value><color>(114,101,106)</color></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "LimestoneChunkCrate"]/graphicData/color</xpath>
+                    <value><color>(196, 187, 166)</color></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "SlateChunkCrate"]/graphicData/color</xpath>
+                    <value><color>(70, 75, 70)</color></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MarbleChunkCrate"]/graphicData/color</xpath>
+                    <value><color>(224, 222, 220)</color></value>
+                </li>
+    
+  <!--=============== Claystone Stone Chunks ====================-->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+                        <ThingDef ParentName="ChunkCrateBase"> 
+                            <defName>ClaystoneChunkCrate</defName>
+                            <label>claystone crate</label>
+                            <graphicData>
+                                <color>(228, 188, 147)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>35</MarketValue>
+                                <Mass>57</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkClaystone>6</ChunkClaystone>
+                                <WoodLog>5</WoodLog>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <BlocksClaystone>120</BlocksClaystone>
+                                <WoodLog>5</WoodLog>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_CrateClaystone</defName>
+                            <label>pack claystone crate</label>
+                            <description>packs a crate full of claystone chunks.</description>
+                            <jobString>packing a crate.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkClaystone</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>WoodLog</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkClaystone</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <ClaystoneChunkCrate>1</ClaystoneChunkCrate>
+                            </products>
+                        </RecipeDef>
+    
+  <!--=============== Andesite Stone Chunks ====================-->
+
+                        <ThingDef ParentName="ChunkCrateBase"> 
+                            <defName>AndesiteChunkCrate</defName>
+                            <label>andesite crate</label>
+                            <graphicData>
+                                <color>(155, 164, 166)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>35</MarketValue>
+                                <Mass>72</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkAndesite>6</ChunkAndesite>
+                                <WoodLog>5</WoodLog>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <BlocksAndesite>120</BlocksAndesite>
+                                <WoodLog>5</WoodLog>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_CrateAndesite</defName>
+                            <label>pack andesite crate</label>
+                            <description>packs a crate full of andesite chunks.</description>
+                            <jobString>packing a crate.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkAndesite</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>WoodLog</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkAndesite</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <AndesiteChunkCrate>1</AndesiteChunkCrate>
+                            </products>
+                        </RecipeDef>
+    
+  <!--=============== Syenite Stone Chunks ====================-->
+
+                        <ThingDef ParentName="ChunkCrateBase"> 
+                            <defName>SyeniteChunkCrate</defName>
+                            <label>syenite crate</label>
+                            <graphicData>
+                                <color>(186, 126, 121)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>35</MarketValue>
+                                <Mass>69</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkSyenite>6</ChunkSyenite>
+                                <WoodLog>5</WoodLog>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <BlocksSyenite>120</BlocksSyenite>
+                                <WoodLog>5</WoodLog>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_CrateSyenite</defName>
+                            <label>pack syenite crate</label>
+                            <description>packs a crate full of syenite chunks.</description>
+                            <jobString>packing a crate.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkSyenite</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>WoodLog</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkSyenite</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <SyeniteChunkCrate>1</SyeniteChunkCrate>
+                            </products>
+                        </RecipeDef>
+    
+  <!--=============== Gneiss Stone Chunks ====================-->
+
+                        <ThingDef ParentName="ChunkCrateBase"> 
+                            <defName>GneissChunkCrate</defName>
+                            <label>gneiss crate</label>
+                            <graphicData>
+                                <color>(146, 138, 104)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>35</MarketValue>
+                                <Mass>75</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkGneiss>6</ChunkGneiss>
+                                <WoodLog>5</WoodLog>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <BlocksGneiss>120</BlocksGneiss>
+                                <WoodLog>5</WoodLog>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_CrateGneiss</defName>
+                            <label>pack gneiss crate</label>
+                            <description>packs a crate full of gneiss chunks.</description>
+                            <jobString>packing a crate.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkGneiss</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>WoodLog</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkGneiss</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <GneissChunkCrate>1</GneissChunkCrate>
+                            </products>
+                        </RecipeDef>
+    
+  <!--=============== Quartzite Stone Chunks ====================-->
+
+                        <ThingDef ParentName="ChunkCrateBase"> 
+                            <defName>QuartziteChunkCrate</defName>
+                            <label>quartzite crate</label>
+                            <graphicData>
+                                <color>(155, 156, 160)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>35</MarketValue>
+                                <Mass>66</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkQuartzite>6</ChunkQuartzite>
+                                <WoodLog>5</WoodLog>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <BlocksQuartzite>120</BlocksQuartzite>
+                                <WoodLog>5</WoodLog>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_CrateQuartzite</defName>
+                            <label>pack quartzite crate</label>
+                            <description>packs a crate full of quartzite chunks.</description>
+                            <jobString>packing a crate.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkQuartzite</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>WoodLog</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkQuartzite</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <QuartziteChunkCrate>1</QuartziteChunkCrate>
+                            </products>
+                        </RecipeDef>
+    
+  <!--=============== Schist Stone Chunks ====================-->
+
+                        <ThingDef ParentName="ChunkCrateBase"> 
+                            <defName>SchistChunkCrate</defName>
+                            <label>schist crate</label>
+                            <graphicData>
+                                <color>(105, 124, 102)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>35</MarketValue>
+                                <Mass>60</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkSchist>6</ChunkSchist>
+                                <WoodLog>5</WoodLog>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <BlocksSchist>120</BlocksSchist>
+                                <WoodLog>5</WoodLog>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_CrateSchist</defName>
+                            <label>pack schist crate</label>
+                            <description>packs a crate full of schist chunks.</description>
+                            <jobString>packing a crate.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkSchist</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>WoodLog</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkSchist</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <SchistChunkCrate>1</SchistChunkCrate>
+                            </products>
+                        </RecipeDef>
+    
+  <!--=============== Gabbro Stone Chunks ====================-->
+
+                        <ThingDef ParentName="ChunkCrateBase"> 
+                            <defName>GabbroChunkCrate</defName>
+                            <label>gabbro crate</label>
+                            <graphicData>
+                                <color>(122, 122, 122)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>35</MarketValue>
+                                <Mass>72</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkGabbro>6</ChunkGabbro>
+                                <WoodLog>5</WoodLog>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <BlocksGabbro>120</BlocksGabbro>
+                                <WoodLog>5</WoodLog>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_CrateGabbro</defName>
+                            <label>pack gabbro crate</label>
+                            <description>packs a crate full of gabbro chunks.</description>
+                            <jobString>packing a crate.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkGabbro</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>WoodLog</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkGabbro</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <GabbroChunkCrate>1</GabbroChunkCrate>
+                            </products>
+                        </RecipeDef>
+    
+  <!--=============== Diorite Stone Chunks ====================-->
+
+                        <ThingDef ParentName="ChunkCrateBase"> 
+                            <defName>DioriteChunkCrate</defName>
+                            <label>diorite crate</label>
+                            <graphicData>
+                                <color>(204, 204, 204)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>35</MarketValue>
+                                <Mass>81</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkDiorite>6</ChunkDiorite>
+                                <WoodLog>5</WoodLog>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <BlocksDiorite>120</BlocksDiorite>
+                                <WoodLog>5</WoodLog>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_CrateDiorite</defName>
+                            <label>pack diorite crate</label>
+                            <description>packs a crate full of diorite chunks.</description>
+                            <jobString>packing a crate.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkDiorite</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>WoodLog</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkDiorite</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <DioriteChunkCrate>1</DioriteChunkCrate>
+                            </products>
+                        </RecipeDef>
+    
+  <!--=============== Dunite Stone Chunks ====================-->
+
+                        <ThingDef ParentName="ChunkCrateBase"> 
+                            <defName>DuniteChunkCrate</defName>
+                            <label>dunite crate</label>
+                            <graphicData>
+                                <color>(154, 162, 126)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>35</MarketValue>
+                                <Mass>69</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkDunite>6</ChunkDunite>
+                                <WoodLog>5</WoodLog>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <BlocksDunite>120</BlocksDunite>
+                                <WoodLog>5</WoodLog>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_CrateDunite</defName>
+                            <label>pack dunite crate</label>
+                            <description>packs a crate full of dunite chunks.</description>
+                            <jobString>packing a crate.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkDunite</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>WoodLog</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkDunite</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <DuniteChunkCrate>1</DuniteChunkCrate>
+                            </products>
+                        </RecipeDef>
+    
+  <!--=============== Pegmatite Stone Chunks ====================-->
+
+                        <ThingDef ParentName="ChunkCrateBase"> 
+                            <defName>PegmatiteChunkCrate</defName>
+                            <label>pegmatite crate</label>
+                            <graphicData>
+                                <color>(201, 150, 115)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>35</MarketValue>
+                                <Mass>69</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkPegmatite>6</ChunkPegmatite>
+                                <WoodLog>5</WoodLog>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <BlocksPegmatite>120</BlocksPegmatite>
+                                <WoodLog>5</WoodLog>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_CratePegmatite</defName>
+                            <label>pack pegmatite crate</label>
+                            <description>packs a crate full of pegmatite chunks.</description>
+                            <jobString>packing a crate.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkPegmatite</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>WoodLog</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkPegmatite</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <PegmatiteChunkCrate>1</PegmatiteChunkCrate>
+                            </products>
+                        </RecipeDef>
+    
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>	
+
+    <!-- === Code for 'The Rock Trade' by EarthyTurtle. === -->
+    <!-- === This label is actually just so I don't accidently place anything after the Patch tag. :P === -->
+</Patch>

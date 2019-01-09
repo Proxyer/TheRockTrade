@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>The Rock Trade [1.0]</name>
+    <author>EarthyTurtle</author>
+    <targetVersion>1.0.2096</targetVersion>
+    <description>For Rimworld Version [1.0] | Mod Version [1.5.0]
+        
+This mod makes storing, transporting, trading and using stone chunks easier with a crating system. A total of 3 new rock traders are added, that specifically buy and sell chunks.
+
+Compatibility:
+    - Placeable anywhere in your mod list below core.
+    - 'The Rock Trade' plays nice with existing save files, there should be no issues installing. Uninstall at your own risk, recommended you remove all traces of 'The Rock Trade' from your save before uninstalling.
+    
+    Has been made compatible with:
+    > Let's Trade! [1.0] --- (Updates Stellar Miners to sell crates of Stone Chunks)
+    > Soil Enhancement [1.0] --- (Updates Soil Enhancement to accept crates in crafting)
+    > CCP's Stone Tweaks --- (Will search for and make stone chunk crates for Stone Tweak's stone types)
+    > SZ_StonesAndTerrains --- (Will search for and make stone chunk crates for Stone and Terrain's stone types)
+    > [TWC]Cupro's Stones 1.0 --- (Will search for and make stone chunk crates for Cupro's Stone types)
+    > [Ku] Extra Stone --- (Will search for and make stone chunk crates for Extra Stone's stone types)
+    > Slag Refined Plus --- (Will search for and make slag debris crates for Slag Refined Plus's slag types)
+            (Place 'The Rock Trade [1.0]' below any of these mods)
+        
+
+'The Rock Trade' is under the creative commons license. Cite, learn and use aspects from this mod, credit optional but appreciated ;). Please do not outright copy this mod and/or re-upload without my consent.
+    </description>
+</ModMetaData>
