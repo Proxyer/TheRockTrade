@@ -3,16 +3,13 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Kura's Extra Stone</li>
+			<li>[K]Extra Stone</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-    
-  <!--=============== RANT Inbound: ====================-->
-  <!--=== OK if you're gonna make new ThingDefs please don't overwrite the existing bases! Especially when you don't intend to change anything about the bases. Any minor changes can be done with patch operations! Please for the love of all that is holy and good in the world don't. It creates so many other problems with other mods later.===-->
     
   <!--=============== Dunite Stone Chunks ====================-->
 

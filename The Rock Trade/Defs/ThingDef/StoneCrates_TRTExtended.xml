@@ -20,7 +20,6 @@
         <selectable>true</selectable>
         <pathCost>65</pathCost>
         <pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
-        <drawGUIOverlay>true</drawGUIOverlay>
         <designateHaulable>true</designateHaulable>
         <stackLimit>1</stackLimit>
         <thingCategories>
@@ -82,6 +81,8 @@
             <Steel>120</Steel>
             <WoodLog>5</WoodLog>
         </smeltProducts>
+        <uiIconForStackCount>1</uiIconForStackCount>
+        <resourceReadoutPriority>Last</resourceReadoutPriority>
     </ThingDef>
 
     <RecipeDef ParentName="DeconstructChunkCrateBase">

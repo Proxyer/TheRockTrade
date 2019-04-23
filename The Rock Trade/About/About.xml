@@ -2,8 +2,8 @@
 <ModMetaData>
     <name>The Rock Trade [1.0]</name>
     <author>EarthyTurtle</author>
-    <targetVersion>1.0.2096</targetVersion>
-    <description>For Rimworld Version [1.0] | Mod Version [1.5.0]
+    <supportedVersions><li>1.0</li></supportedVersions>
+    <description>For Rimworld Version [1.0] | Mod Version [1.5.2]
         
 This mod makes storing, transporting, trading and using stone chunks easier with a crating system. A total of 3 new rock traders are added, that specifically buy and sell chunks.
 
