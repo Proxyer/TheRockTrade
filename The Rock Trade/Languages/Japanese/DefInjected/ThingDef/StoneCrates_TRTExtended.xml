@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Slag -->
+
+  <SlagCrate.label>くず鉄入り木箱</SlagCrate.label>
+  <SlagCrate.stuffProps.stuffAdjective>くず鉄入り木箱</SlagCrate.stuffProps.stuffAdjective>
+
+  <SlagBox.label>くず鉄入り鉄製箱</SlagBox.label>
+  <SlagBox.stuffProps.stuffAdjective>くず鉄入り鉄製箱</SlagBox.stuffProps.stuffAdjective>
+
+
+  <!-- Sandstone Stone Chunks -->
+
+  <SandstoneChunkCrate.label>砂岩入り木箱</SandstoneChunkCrate.label>
+  <SandstoneChunkCrate.stuffProps.stuffAdjective>砂岩入り木箱</SandstoneChunkCrate.stuffProps.stuffAdjective>
+
+  <SandstoneChunkBox.label>砂岩入り鉄製箱</SandstoneChunkBox.label>
+  <SandstoneChunkBox.stuffProps.stuffAdjective>砂岩入り鉄製箱</SandstoneChunkBox.stuffProps.stuffAdjective>
+
+
+  <!-- Limestone Stone Chunks -->
+
+  <LimestoneChunkCrate.label>石灰岩入り木箱</LimestoneChunkCrate.label>
+  <LimestoneChunkCrate.stuffProps.stuffAdjective>石灰岩入り木箱</LimestoneChunkCrate.stuffProps.stuffAdjective>
+
+  <LimestoneChunkBox.label>石灰岩入り鉄製箱</LimestoneChunkBox.label>
+  <LimestoneChunkBox.stuffProps.stuffAdjective>石灰岩入り鉄製箱</LimestoneChunkBox.stuffProps.stuffAdjective>
+
+
+  <!-- Granite Stone Chunks -->
+
+  <GraniteChunkCrate.label>花崗岩入り木箱</GraniteChunkCrate.label>
+  <GraniteChunkCrate.stuffProps.stuffAdjective>花崗岩入り木箱</GraniteChunkCrate.stuffProps.stuffAdjective>
+
+  <GraniteChunkBox.label>花崗岩入り鉄製箱</GraniteChunkBox.label>
+  <GraniteChunkBox.stuffProps.stuffAdjective>花崗岩入り鉄製箱</GraniteChunkBox.stuffProps.stuffAdjective>
+
+
+  <!-- Slate Stone Chunks -->
+
+  <SlateChunkCrate.label>粘板岩入り木箱</SlateChunkCrate.label>
+  <SlateChunkCrate.stuffProps.stuffAdjective>粘板岩入り木箱</SlateChunkCrate.stuffProps.stuffAdjective>
+
+  <SlateChunkBox.label>粘板岩入り鉄製箱</SlateChunkBox.label>
+  <SlateChunkBox.stuffProps.stuffAdjective>粘板岩入り鉄製箱</SlateChunkBox.stuffProps.stuffAdjective>
+
+
+  <!-- Marble Stone Chunks -->
+
+  <MarbleChunkCrate.label>大理石入り木箱</MarbleChunkCrate.label>
+  <MarbleChunkCrate.stuffProps.stuffAdjective>大理石入り木箱</MarbleChunkCrate.stuffProps.stuffAdjective>
+
+  <MarbleChunkBox.label>大理石入り鉄製箱</MarbleChunkBox.label>
+  <MarbleChunkBox.stuffProps.stuffAdjective>大理石入り鉄製箱</MarbleChunkBox.stuffProps.stuffAdjective>
+
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Packing Spot -->
+
+  <TRTCratingSpot.label>詰め込み 作業場</TRTCratingSpot.label>
+  <TRTCratingSpot.description>岩塊やくず鉄を箱に詰め込んだり、箱を解体したりするための作業場。</TRTCratingSpot.description>
+  <Blueprint_TRTCratingSpot.label>詰め込み作業場(設計)</Blueprint_TRTCratingSpot.label>
+  <Frame_TRTCratingSpot.label>詰め込み作業場(施工)</Frame_TRTCratingSpot.label>
+  <Frame_TRTCratingSpot.description>岩塊やくず鉄を箱に詰め込んだ、箱を解体したりするための作業場。</Frame_TRTCratingSpot.description>
+
+</LanguageData>

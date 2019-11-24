@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Deconstruct_ChunkCrateAny.label>箱から岩塊を取り出す</Deconstruct_ChunkCrateAny.label>
+  <Deconstruct_ChunkCrateAny.description>箱を解体し、箱の素材と中身の岩塊を取り出します。</Deconstruct_ChunkCrateAny.description>
+  <Deconstruct_ChunkCrateAny.jobString>箱から岩塊を取り出しています</Deconstruct_ChunkCrateAny.jobString>
+
+  <Deconstruct_SlagCrateAny.label>箱からくず鉄を取り出す</Deconstruct_SlagCrateAny.label>
+  <Deconstruct_SlagCrateAny.description>箱を解体し、箱の素材と中身の鉄くずの塊を取り出します。</Deconstruct_SlagCrateAny.description>
+  <Deconstruct_SlagCrateAny.jobString>箱からくず鉄を取り出しています.</Deconstruct_SlagCrateAny.jobString>
+
+  <Craftstoneblocks_ChunkCrateAny.label>箱から岩塊を取り出す</Craftstoneblocks_ChunkCrateAny.label>
+  <Craftstoneblocks_ChunkCrateAny.description>箱を解体し、箱の素材と中身の岩塊を取り出します。</Craftstoneblocks_ChunkCrateAny.description>
+  <Craftstoneblocks_ChunkCrateAny.jobString>箱から岩塊を取り出しています</Craftstoneblocks_ChunkCrateAny.jobString>
+
+  <Smeltmetal_ChunkCrateAny.label>箱からくず鉄を取り出す</Smeltmetal_ChunkCrateAny.label>
+  <Smeltmetal_ChunkCrateAny.description>箱を解体し、箱の素材と中身の鉄くずの塊を取り出します。</Smeltmetal_ChunkCrateAny.description>
+  <Smeltmetal_ChunkCrateAny.jobString>箱からくず鉄を取り出しています</Smeltmetal_ChunkCrateAny.jobString>
+
+</LanguageData>

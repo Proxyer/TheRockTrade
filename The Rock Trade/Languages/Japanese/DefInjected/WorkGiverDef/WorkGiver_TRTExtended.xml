@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Workgiver for Crating Station -->
+
+  <DoBillsUseTRTCratingSpot.label>箱に詰める</DoBillsUseTRTCratingSpot.label>
+  <DoBillsUseTRTCratingSpot.verb>箱詰</DoBillsUseTRTCratingSpot.verb>
+  <DoBillsUseTRTCratingSpot.gerund>で作業する</DoBillsUseTRTCratingSpot.gerund>
+
+</LanguageData>

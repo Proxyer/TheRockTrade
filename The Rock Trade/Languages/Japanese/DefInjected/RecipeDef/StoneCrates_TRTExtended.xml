@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Slag -->
+
+  <Make_CrateSlag.label>くず鉄を木箱に積み込む</Make_CrateSlag.label>
+  <Make_CrateSlag.description>木箱いっぱいに鉄くずの塊を積み込んで、くず鉄入り木箱を作成します。</Make_CrateSlag.description>
+  <Make_CrateSlag.jobString>くず鉄を梱包しています</Make_CrateSlag.jobString>
+
+  <Make_BoxSlag.label>くず鉄を鉄製箱に積み込む</Make_BoxSlag.label>
+  <Make_BoxSlag.description>鉄製箱いっぱいに鉄くずの塊を積み込んで、くず鉄入り鉄製箱を作成します。 slag debris.</Make_BoxSlag.description>
+  <Make_BoxSlag.jobString>くず鉄を梱包しています</Make_BoxSlag.jobString>
+
+
+  <!-- Sandstone Stone Chunks -->
+
+  <Make_CrateSandstone.label>砂岩を木箱に積み込む</Make_CrateSandstone.label>
+  <Make_CrateSandstone.description>木箱いっぱいに砂岩の塊を積み込んで、砂岩入り木箱を作成します。</Make_CrateSandstone.description>
+  <Make_CrateSandstone.jobString>砂岩を梱包しています</Make_CrateSandstone.jobString>
+
+  <Make_BoxSandstone.label>砂岩を鉄製箱に積み込む</Make_BoxSandstone.label>
+  <Make_BoxSandstone.description>鉄製箱いっぱいに砂岩の塊を積み込んで、砂岩入り鉄製箱を作成します。</Make_BoxSandstone.description>
+  <Make_BoxSandstone.jobString>砂岩を梱包しています</Make_BoxSandstone.jobString>
+
+
+  <!-- Limestone Stone Chunks -->
+
+  <Make_CrateLimestone.label>石灰岩を木箱に積み込む</Make_CrateLimestone.label>
+  <Make_CrateLimestone.description>木箱いっぱいに石灰岩の塊を積み込んで、石灰岩入り木箱を作成します。</Make_CrateLimestone.description>
+  <Make_CrateLimestone.jobString>石灰岩を梱包しています</Make_CrateLimestone.jobString>
+
+  <Make_BoxLimestone.label>石灰岩を鉄製箱に積み込む</Make_BoxLimestone.label>
+  <Make_BoxLimestone.description>鉄製箱いっぱいに石灰岩の塊を積み込んで、石灰岩入り鉄製箱を作成します。</Make_BoxLimestone.description>
+  <Make_BoxLimestone.jobString>石灰岩を梱包しています</Make_BoxLimestone.jobString>
+
+
+  <!-- Granite Stone Chunks -->
+
+  <Make_CrateGranite.label>花崗岩を木箱に積み込む</Make_CrateGranite.label>
+  <Make_CrateGranite.description>木箱いっぱいに花崗岩の塊を積み込んで、花崗岩入り木箱を作成します。</Make_CrateGranite.description>
+  <Make_CrateGranite.jobString>花崗岩を梱包しています</Make_CrateGranite.jobString>
+
+  <Make_BoxGranite.label>花崗岩を鉄製箱に積み込む</Make_BoxGranite.label>
+  <Make_BoxGranite.description>鉄製箱いっぱいに花崗岩の塊を積み込んで、花崗岩入り鉄製箱を作成します。</Make_BoxGranite.description>
+  <Make_BoxGranite.jobString>花崗岩を梱包しています</Make_BoxGranite.jobString>
+
+
+  <!-- Slate Stone Chunks -->
+
+  <Make_CrateSlate.label>粘板岩を木箱に積み込む</Make_CrateSlate.label>
+  <Make_CrateSlate.description>木箱いっぱいに粘板岩の塊を積み込んで、粘板岩入り木箱を作成します。</Make_CrateSlate.description>
+  <Make_CrateSlate.jobString>粘板岩を梱包しています</Make_CrateSlate.jobString>
+
+  <Make_BoxSlate.label>粘板岩を鉄製箱に積み込む</Make_BoxSlate.label>
+  <Make_BoxSlate.description>鉄製箱いっぱいに粘板岩の塊を積み込んで、粘板岩入り鉄製箱を作成します。 slate chunks.</Make_BoxSlate.description>
+  <Make_BoxSlate.jobString>粘板岩を梱包しています</Make_BoxSlate.jobString>
+
+
+  <!-- Marble Stone Chunks -->
+
+  <Make_CrateMarble.label>大理石を木箱に積み込む</Make_CrateMarble.label>
+  <Make_CrateMarble.description>木箱いっぱいに大理石の塊を積み込んで、大理石入り木箱を作成します。</Make_CrateMarble.description>
+  <Make_CrateMarble.jobString>大理石を梱包しています</Make_CrateMarble.jobString>
+
+  <Make_BoxMarble.label>大理石を鉄製箱に積み込む</Make_BoxMarble.label>
+  <Make_BoxMarble.description>鉄製箱いっぱいに大理石の塊を積み込んで、大理石入り鉄製箱を作成します。</Make_BoxMarble.description>
+  <Make_BoxMarble.jobString>大理石を梱包しています</Make_BoxMarble.jobString>
+
+</LanguageData>
